@@ -4,9 +4,8 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { ChevronDown } from 'lucide-react'
 
-// Real photo from Google Maps — stable Google CDN URL (no expiry)
 const HERO_IMAGE =
-  'https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuvJfUSKqfrMgr3vOdYKzauahmOfDgsGT4ZhUDATbgklPdvfKwHnnGfzpPfPWWXCIEO9kQbeHh1oN56DT8qoBv07lq9an6n24GgOsSPYywMsHwCZpCCC4znUS724Lj-2UIQCm4=s0'
+  'https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1920&q=80&fit=crop'
 
 export default function HeroSection() {
   return (

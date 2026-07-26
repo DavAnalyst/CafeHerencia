@@ -109,6 +109,17 @@ export default function Footer() {
           <p className="text-center" style={{ color: '#4A8B5C' }}>
             Pasarela de pagos en modo demo — ningún cobro real será procesado
           </p>
+          <p>
+            Desarrollado por{' '}
+            <a
+              href="https://www.davanalyst.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#C8873A] transition-colors"
+            >
+              Davanalyst
+            </a>
+          </p>
         </div>
       </div>
     </footer>
